@@ -4,11 +4,8 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Offers from "../components/Offers";
 import Footer from "../components/Footer";
-// import Header from '../components/Header'
-// import Footer from '../components/Footer'
-// import Services from '../pages/Services'
-// import Offers from '../pages/Offers'
-// import About from '../components/About'
+import Safety from "../components/Safety";
+
 
 const Home = () => {
   return (
@@ -16,6 +13,7 @@ const Home = () => {
       <About />
       <Services />
       <Offers />
+      <Safety/>
       <Footer/>
     </section>
   );
