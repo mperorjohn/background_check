@@ -4,6 +4,7 @@ import Header from './components/Header';
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Offers from "./pages/Offers";
+import Safety from "./pages/Safety";
 import {BrowserRouter as Router, Routes, Route } from "react-router";
 
 // Todo 1: Add react-router-dom
@@ -21,10 +22,11 @@ function App() {
           <Route path="/src/components/Header.jsx" element={<Header/>}/>
         </Routes>
         <Services />
-        <Offers/>
+        <Offers />
+        <Safety/>
         <Footer/>
       </Router>
-     {/*  */}
+
     </>
   );
 }
