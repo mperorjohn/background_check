@@ -4,7 +4,7 @@ import Button from './Button';
 const Safety = () => {
   return (
     <div  className='bg-gray-200 items-center justify-center flex flex-col p-20 text-black gap-8'>
-          <div className='w-200 grid grid-cols-2'>
+          <div className='w-200 grid grid-cols-2 gap-10'>
               <div>
                   <h4 className='font-bold text-blue-700 tracking-widest'> SAFETY</h4>
                   <h2 className='font-extrabold text-3xl p-3 pl-0'>Your card score always <br /> Safe and Secure </h2>

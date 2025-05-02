@@ -20,19 +20,19 @@ const Footer = () => {
                   <div className='grid grid-cols-3 gap-6'>
                       <div>
                   <h3 className='text-xl font-semibold '>Quick Links</h3>
-                  <ul className='text-white/80 pt-5'>
-                      <li ><Link>Home</Link></li>
-                      <li ><Link>Home</Link></li>
-                      <li><Link>Home</Link></li>
-                      <li><Link>Home</Link></li>
-                      <li><Link>Home</Link></li>
+                  <ul className='text-white/90 pt-5'>
+                      <li ><Link to="/">Home</Link></li>
+                      <li ><Link>Portfolio</Link></li>
+                      <li><Link>Features</Link></li>
+                      <li><Link>Team</Link></li>
+                      <li><Link>Blog</Link></li>
                       
                   </ul>
               </div>
               <div>
                   <h3 className='text-xl font-semibold text-white/'>Company</h3>
-                  <ul className='text-white/80 pt-5'>
-                      <li><Link>About</Link></li>
+                  <ul className='text-white/90 pt-5'>
+                      <li><Link to='/'>About</Link></li>
                       <li><Link>Contact</Link></li>
                       <li><Link>Careers</Link></li>
                       <li><Link>Press</Link></li>
