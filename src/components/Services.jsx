@@ -1,8 +1,8 @@
 import React from 'react';
-import Card from '../components/Card';
+import Card from './Card';
 
 const Services = () => {
-  const card = [{
+    const card = [{
         image: '/src/assets/react.svg',
         alt: 'Credit Card',
         heading: 'CREDIT CARD',
@@ -39,6 +39,7 @@ const Services = () => {
         details: 'compare and choose offers from top providers to find the credit card that suits your needs'
     }
     ]
+
   return (
       <div className='items-center justify-center flex flex-col p-10'>
           <div className=' w-300 items-center justify-center flex flex-col '>
@@ -51,8 +52,7 @@ const Services = () => {
               {card.map((card) => (
                       <Card image={card.image} alt={card.alt} heading={card.heading} details={card.details} />
                   ))}  
-              
-      </div>
+    </div>
     </div>
       </div>
   )
