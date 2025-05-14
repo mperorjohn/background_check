@@ -1,0 +1,42 @@
+{
+  "cards": [
+    {
+      "image": "/src/assets/react.svg",
+      "alt": "Credit Card",
+      "heading": "CREDIT CARD",
+      "details": "compare and choose offers from top providers to find the credit card that suits your needs"
+    },
+    {
+      "image": "/src/assets/react.svg",
+      "alt": "Credit Card", 
+      "heading": "CREDIT CARD",
+      "details": "compare and choose offers from top providers to find the credit card that suits your needs"
+    },
+    {
+      "image": "/src/assets/react.svg",
+      "alt": "Credit Card",
+      "heading": "LOAN",
+      "details": "compare and choose offers from top providers to find the credit card that suits your needs"
+    },
+    {
+      "image": "/src/assets/react.svg",
+      "alt": "Credit Card",
+      "heading": "CREDIT CARD", 
+      "details": "compare and choose offers from top providers to find the credit card that suits your needs"
+    },
+    {
+      "image": "/src/assets/react.svg",
+      "alt": "Credit Card",
+      "heading": "CREDIT CARD",
+      "details": "compare and choose offers from top providers to find the credit card that suits your needs"
+    },
+    {
+      "image": "/src/assets/react.svg",
+      "alt": "Credit Card",
+      "heading": "CREDIT CARD",
+      "details": "compare and choose offers from top providers to find the credit card that suits your needs"
+    }
+    
+
+  ]
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
+
 const Safety = () => {
   return (
     <div  className='bg-gray-200 items-center justify-center flex flex-col p-20 text-black gap-8'>
