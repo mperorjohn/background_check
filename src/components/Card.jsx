@@ -1,13 +1,12 @@
 import React from 'react'
-
-const Card = ({image, alt, heading, details}) => {
+const Card = ({ image, alt, heading, details, price }) => {
   return (
-    <div className='text-black flex flex-col items-center justify-center w-60 h-60 p-2 text-center rounded-lg border-2 border-gray-200'>
-          <img src={image} alt={alt} className='shadow-2xl bg-blue-100 p-2 rounded-lg ' />
-          <h3 className='font-bold m-2'>{heading} </h3>
-          <p className='text-black/70'>{details}</p>
+    <div className="bg-white rounded-lg shadow-md p-4">
+      <img src={image} alt={alt} className="w-full h-48 object-cover rounded-t-lg" />
+      <h3 className="font-bold text-xl mt-2">{heading}</h3>
+      <p className="text-black/70 mt-2 line-clamp-3">{details}</p>
+      <p className="text-blue-700 font-bold mt-2">₦{Number(price).toLocaleString()}</p>
     </div>
-  )
-}
-
+  );
+};
 export default Card

@@ -23,8 +23,6 @@ const Safety = () => {
                   <Button  name="See Offers"  />
           </div>
           <div className='bg-[url(./assets/images.jpeg)] rounded-full h-70 w-70'>
-              {/* <img src="/src/assets/006d23213797631.Y3JvcCwyNDI0LDE4OTYsMCww.png" alt="Insurance" className='w-50 h-70 -mt-4 ' />
-              <img src='/src/assets/vite.svg' alt='' className='-mt-10 ml-10 shadow-3xl shadow-amber-700'/> */}
           </div>
       </div>
     </div>
